@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+#background{
+    width: 100vw;
+    height: 100vh;
+
+    background-color: rgb(0, 0, 0);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sliderContainer{
+    margin: 30px;
+    box-sizing: border-box;
+}
+
+#slider{
+    width: 100%;
+
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+.rectangle {
+    width: 200px;
+    height: 200px;
+}
+
+#red{
+    background-color: tomato;
+
+    margin-left: calc(100% - 200px);
+    margin-top: 50px;
+    
+}
+
+#blue{
+    background-color: blue;
+
+    margin-left: 0;
+    margin-top: 350px;
+}
